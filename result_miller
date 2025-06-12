@@ -100,7 +100,6 @@ for e0 in eccentricities:
             (4 * np.cos(2 * Phi) * phi_dot * r_dot + np.sin(2 * Phi) * r_ddot) * r
         )
     )
-    # Plot h_plus for this eccentricity on the same figure
     plt.figure(figsize=(10, 5))
     plt.plot(sol.t, h_plus)
     # You might also want to plot h_cross if needed:
